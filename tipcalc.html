@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tip Calculator</title>
+    <link rel="stylesheet" href="css/site.css">
+</head>
+<body>
+    <p><a href="index.html">Home</a></p>
+    <h1>Tip Calculator</h1>
+
+    <div id = "check-amounts">
+        <h3>Enter Check Amount and Tip Percentage</h3>
+        
+        Check: <input type="text" id="check-amount">
+        <br>
+        Tip: <input type="text" id="tip-percentage">%
+        <br>
+        <button id="calculate-tip">Calculate Tip</button>
+        <br><br>
+        Or use these predetermined percentages:
+        <button id="fifteen-percent">15%</button>
+        <button id="twenty-percent">20%</button>
+        <button id="twentyfive-percent">25%</button>
+
+    </div>
+
+    <div>
+        <h2>You should pay:</h2>
+        <div id="total-to-pay">$0.00</div>
+    </div>
+
+
+
+    <script src="js/tipcalc.js"></script>
+</body>
+</html>
